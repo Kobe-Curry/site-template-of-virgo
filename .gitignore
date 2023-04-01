@@ -1,0 +1,7 @@
+.idea/
+.vscode/
+
+resources/
+node_modules/
+
+public/

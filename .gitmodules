@@ -1,0 +1,10 @@
+[submodule "themes/virgo"]
+	path = themes/virgo
+	# url = https://github.com/loveminimal/hugo-theme-virgo.git
+	url = https://gitee.com/loveminimal/hugo-theme-virgo.git
+[submodule "static/ship"]
+	path = static/ship
+	url = https://gitee.com/loveminimal/ship.git
+[submodule "static/emojing"]
+	path = static/emojing
+	url = https://gitee.com/loveminimal/emojing.git

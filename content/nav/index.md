@@ -1,0 +1,315 @@
+---
+title: "Nav"
+date: 2020-04-10T12:48:47+08:00
+draft: false
+categories: []
+tags: []
+---
+
+<div class="nav">
+
+## 🌞 *我的 MINE*
+- [GTD](https://www.dida365.com/webapp/#p/inbox/tasks)
+- [Ship](//ovirgo.com/ship)
+- [Emojing](//ovirgo.com/emojing)
+- [Wiki](//ovirgo.com/posts/wiki)
+- [Github](https://github.com/loveminimal)
+- [Gitee](https://gitee.com/loveminimal)
+- [网易云音乐](https://music.163.com/)
+- [Bilibili](https://bilibili.com/)
+- [知乎](https://www.zhihu.com/)
+- [微博](https://weibo.com/)
+- [简书](https://www.jianshu.com/)
+- [YouTube](https://www.youtube.com/)
+- [Twitter](https://twitter.com/)
+- [LeetCode](https://leetcode-cn.com/)
+- [Emacs China](https://emacs-china.org/)
+- [腾讯云](https://console.cloud.tencent.com/)
+- [微信公众平台](https://mp.weixin.qq.com/)
+- [华为云](https://cloud.huawei.com/home#/home)
+- [必应分析](https://www.bing.com/webmasters/home?siteUrl=https://ovirgo.com/) 
+- [虎扑](https://www.hupu.com/)
+- [软考](https://www.ruankao.org.cn/)
+- [抖音](https://www.douyin.com/)
+
+<!-- ## 🔔 *论坛 FORUM* -->
+
+## 🔨 *工具 TOOLs*
+- [有道翻译](http://fanyi.youdao.com/)
+- [图压缩](https://www.bejson.com/ui/compress_img/)
+- [Web Color](http://www.hepou.com/peise/dapei.html)
+- [调色板](https://www.sojson.com/web/panel.html)
+- [Wallpaper](https://www.whg6.com/html/wallpaper/)
+- [Pixabay](https://pixabay.com/zh/)
+- [Spring Initializr](https://start.spring.io/)
+- [Shields](https://shields.io/)
+- [JSDelivr](https://www.jsdelivr.com/)
+- [BootNav](https://www.bootcss.com/) 
+- [字体之家](http://www.fonts.net.cn/)
+- [FontSquirrel](https://www.fontsquirrel.com/)
+- [AnimateCSS](https://animate.style/)
+- [RegExp](https://regexr-cn.com/)
+- [在线工具](https://tool.lu/c/image/) 
+- [前线乐园](https://www.whg6.com/) 
+- [Crx4Chrome](https://www.crx4chrome.com/)
+- [Chocolatey](https://chocolatey.org/packages)
+- [VimAwesome](https://vimawesome.com/) 
+- [Package Control](https://packagecontrol.io/)
+- [Melpa](http://www.melpa.org/#/) 
+- [HuaWei Mirror](https://mirrors.huaweicloud.com/home)
+- [Ascii](http://www.network-science.de/ascii/)
+- [油猴](https://www.tampermonkey.net/)
+- [贝贝 Bilibili](https://xbeibeix.com/api/bilibili/)
+- [Echarts](https://echarts.apache.org/zh/index.html)
+- [微工具](http://www.wetools.com/)
+- [ASPOSE](https://products.aspose.app/imaging/zh-hans/conversion/base64-to-pdf)
+- [贷款计算器](https://www.cmbchina.com/CmbWebPubInfo/Cal_Loan_Per.aspx)
+- [Base64在线编解码](https://www.hitoy.org/tool/file_base64.php)
+- [工资条生成器](http://www.obeishi.com/ccc/b121/)
+- [Versus](https://versus.com/cn)
+- [JETBRA.IN](https://3.jetbra.in/)
+- [IconFont](https://www.iconfont.cn/)
+- [DrawIO](https://app.diagrams.net/)
+- [CPU天梯榜](https://topic.expreview.com/CPU/)
+
+## 📑 *文档 DOCs*
+- [菜鸟教程](http://www.runoob.com/) 
+- [C 语言中文网](http://c.biancheng.net/)
+- [Learn X in Y](https://learnxinyminutes.com/)
+- [Interview Cake](https://www.interviewcake.com/data-structures-reference)
+- [TeachU&#39;CS](https://teachyourselfcs.com/)
+- [NginxDoc](http://www.nginx.cn/doc/)
+- [AxiosDoc](https://axios-http.com/zh)
+- [MongodbDoc](https://www.mongodb.org.cn/)
+- [Maven Repo](https://search.maven.org/)
+- [Hugo](https://gohugo.io/)
+- [Jenkins](https://www.jenkins.io/zh/)
+- [脚本之家](https://www.jb51.net/)
+- [TS 翻译文档](https://ts.yayujs.com/)
+- [书栈网](https://www.bookstack.cn/)
+- [Developer Roadmaps](https://roadmap.sh/)
+- [elisp 简明教程](http://smacs.github.io/elisp/)
+- [Electron](https://www.electronjs.org/zh/docs/latest/)
+- [ElementUI](https://element.eleme.cn/#/zh-CN/component/installation)
+
+## 🍺 *博客 BLOGs*
+- [Blogwe](https://blogwe.com/)
+- [当然我在扯淡](http://www.yinwang.org/)
+- [阮一峰](http://www.ruanyifeng.com/blog/developer/)
+- [李杀网](http://xahlee.org/)
+- [酷壳](https://coolshell.cn/)
+- [廖雪峰](https://www.liaoxuefeng.com/)
+- [程序猿](https://blog.didispace.com/)
+- [MrBird](https://mrbird.cc/)
+- [懒猫](https://manateelazycat.github.io/index.html)
+- [Houge](https://litterhougelangley.club/blog/)
+- [小林coding](https://xiaolincoding.com/)
+
+## ☕️ *休闲 LEISURE*
+- [素描网](http://www.sumiaowang.com/)
+- [道德经](https://www.daodejing.org/) 
+- [古诗文网](https://www.gushiwen.cn/) 
+- [词根词缀](http://www.etymon.cn/index.html)
+- [动画创作家园](https://www.chinavid.com/)
+- [TopHub](https://tophub.today/)
+
+## 🎧 *影视 MOVIEs*
+- [Agefans](http://www.agefans.top/)
+- [美剧天堂](https://www.meijutt.tv/)
+- [MP4](https://www.boxmp4.com/)
+- [看一看](https://www.kyikan.cc/)
+- [双十](https://www.1010dy3.com/)
+- [片吧](http://www.pianbar.net/)
+- [低端影视](https://ddys.art/)
+- [人人美剧](https://www.sczequan.com/)
+
+## 🧲 *友链 LINKs*
+- [Whatacold](https://whatacold.io/zh-cn/)
+- [ThingsEngine](https://www.thethingsengine.org/)
+- [DeCheng Note](https://note.dc6.fun/)
+- [子舒的博客](https://zburu.com/)
+- [XAOXUU](https://xaoxuu.com/)
+
+</div>
+
+## 🔖 *标签 BOOKMARKs*
+
+<div class="bookmark">
+
+- 合抱之木，生于毫末；九层之台，起于累土；千里之行，始于足下。
+- [BAI Chat](https://chatbot.theb.ai/#/chat)
+- [New chat](http://10.9.2.101:3000/)
+- [CPU篇：2023年3月台式电脑CPU一文搞定😀😀 - 知乎](https://zhuanlan.zhihu.com/p/425492516)
+- [(11条消息) Java实现文件上传详解_冷丁_的博客-CSDN博客](https://blog.csdn.net/qq_41359998/article/details/121300262)
+- [(11条消息) Java实现文件上传和下载_java文件上传下载实现_嘉禾嘉宁papa的博客-CSDN博客](https://blog.csdn.net/Alian_1223/article/details/121248715)
+- [Chrome公网访问本地服务跨域问题 - 天方 - 博客园](https://www.cnblogs.com/TianFang/p/15835716.html)
+- [从按键到响应，键盘的底层原理是什么？ - 知乎](https://zhuanlan.zhihu.com/p/367332722)
+- [(11条消息) ERROR:JAVA: 错误: 不支持发行版本 5 解决方法_java不支持发行版本5_欧晨eli的博客-CSDN博客](https://blog.csdn.net/xiao_yi_xiao/article/details/119142118)
+- [Telegram：新手指南、使用教程及频道推荐（持续更新中） - 皮普的学习笔记 - pipuwong.com](https://pipuwong.com/telegram)
+- [汇编语言入门教程 - 阮一峰的网络日志 - www.ruanyifeng.com](https://www.ruanyifeng.com/blog/2018/01/assembly-language-primer.html)
+- [Assembly 继承和多态_w3cschool - www.w3cschool.cn](https://www.w3cschool.cn/assembly/assembly-inherit.html)
+- [(11条消息) 一口气看完 45 个寄存器，CPU核心技术大揭秘_「已注销」的博客-CSDN博客 - blog.csdn.net](https://blog.csdn.net/lyshark_lyshark/article/details/126793467)
+- [内存条的组成、编址、寻址和读写方式 - 活着的虫子 - 博客园 - www.cnblogs.com](https://www.cnblogs.com/yilang/p/11103061.html)
+- [Ubuntu安装NASM和简单的使用教程 - Raina_R - 博客园 - www.cnblogs.com](https://www.cnblogs.com/raina/p/11527327.html)
+- [(11条消息) 【操作系统】CPU寄存器详解_公子无缘的博客-CSDN博客 - blog.csdn.net](https://blog.csdn.net/sinat_33408502/article/details/124177734)
+- [vuejs在模板中呈现异步函数会显示promise而不是返回的数据 - 问答 - 腾讯云开发者社区-腾讯云 - cloud.tencent.com](https://cloud.tencent.com/developer/ask/sof/1021971)
+- [markdown的锚点 - 简书 - www.jianshu.com](https://www.jianshu.com/p/6571d37c8060)
+- [git cherry-pick 教程 - 阮一峰的网络日志 - ruanyifeng.com](https://ruanyifeng.com/blog/2020/04/git-cherry-pick.html)
+- [Git补丁（git patch）的创建与运用 - 掘金 - juejin.cn](https://juejin.cn/post/6926468448470073351)
+- [基金与股票有什么区别？新手适合买哪个？ - 知乎 - zhuanlan.zhihu.com](https://zhuanlan.zhihu.com/p/93120547)
+- [(11条消息) Vue elementui 实现表格selection的默认勾选](https://blog.csdn.net/gis_zhouda/article/details/121775177)
+- [Honeydew color hex code is #F0FFF0 - www.color-name.com](https://www.color-name.com/honeydew.color)
+- [CSS 颜色 - www.w3school.com.cn](https://www.w3school.com.cn/cssref/css_colors.asp)
+- [代码雨 - JSRUN.NET - jsrun.net](https://jsrun.net/LXVKp/edit?mode=light)
+- [查看我的 IP 地址 | 查询本机 IP 地址及归属地 | 查看 DNS 出口 IP | 测试 CDN 命中节点](https://ip.skk.moe/)
+- [Clash for Windows | Clash for Windows - docs.cfw.lbyczf.com](https://docs.cfw.lbyczf.com/)
+- [JS 控制页面手机端强制横屏 - Hello World！ - lib.im](https://lib.im/code/phone-cross)
+- [获取元素距离浏览器窗口左部，顶部的距离 - 进军的蜗牛 - 博客园 - www.cnblogs.com](https://www.cnblogs.com/yalong/p/10076698.html)
+- [【兼容性】H5 滚动穿透解决方案 - 腾讯云开发者社区-腾讯云 - cloud.tencent.com](https://cloud.tencent.com/developer/article/1926961)
+- [开始 – React - react.docschina.org](https://react.docschina.org/docs/getting-started.html)
+- [React API · React 源码解析 - react.jokcy.me](https://react.jokcy.me/book/api/react.html)
+- [Service Worker - 《阮一峰 Web API 教程》 - 书栈网 · BookStack - www.bookstack.cn](https://www.bookstack.cn/read/webapi-tutorial/docs-service-worker.md)
+- [HTML5 触摸事件 (touchstart、touchmove 和 touchend) - 廖客 - 博客园 - www.cnblogs.com](https://www.cnblogs.com/wasbg/p/10951926.html)
+- [触摸事件 touchstart、touchmove、touchend_蚩尤后裔的博客-CSDN 博客_touchstart - blog.csdn.net](https://blog.csdn.net/wangmx1993328/article/details/83270166)
+- [《黄帝内经》白话文全解读 - neijing.5000yan.com](https://neijing.5000yan.com/)
+- [影视小说网 - www.yingshixiaoshuo.com](https://www.yingshixiaoshuo.com/)
+- [落霞小说-在线全文免费阅读服务的小说网站，值得您收藏 - www.luoxiabook.com](https://www.luoxiabook.com/)
+- [入门 - Chrome 开发者 - developer.chrome.com](https://developer.chrome.com/docs/extensions/mv3/getstarted/)
+- [30 分钟开发一款抓取网站图片资源的浏览器插件_慕课手记 - www.imooc.com](https://www.imooc.com/article/303109)
+- [(8 条消息） 如何开发一个浏览器插件_枫叶-哈哈的博客-CSDN 博客_浏览器插件开发 - blog.csdn.net](https://blog.csdn.net/fangye1/article/details/112130912)
+- 护木 123 https://baike.120ask.com/art/242926
+- https://media4.open.com.cn/L603/fushi/0903/jisuanjzcyl/web/lesson/char1/j1.htm
+- [FinFET 的原理与工艺] https://zhuanlan.zhihu.com/p/161907975
+- Linux 每次 git 拉取都要输入账号密码 https://blog.csdn.net/u013787599/article/details/103399739
+- 安装 Docker 并配置镜像加速源 https://cloud.tencent.com/document/product/1207/45596
+- Aloha https://xintd.lanzoul.com/iUdUN085xoja
+- arguments https://blog.csdn.net/qq_16339527/article/details/53231725
+- 简视频 https://www.aewz.com/
+- https://texttoolkit.com/cheatsheet/elisp-api/
+- Data URI Scheme https://blog.csdn.net/aoshilang2249/article/details/51009947
+- vue 基于 file-saver 处理二进制文件流，导出文件 https://blog.csdn.net/qq_41287423/article/details/119562155
+- [keep a changelog](https://keepachangelog.com/en/1.1.0/)
+- vom7qbxezsnuvvkxgygljmsinm3hclx3hpdc27m2uzracj4monzq
+- static generators https://jamstack.org/generators/
+- JS - 实现 HTML 标签的转义、反转义的几种方法 https://www.hangge.com/blog/cache/detail_1774.html
+- https://sunpma.com/
+- https://www.yiibai.com/
+- https://www.zhangxinxu.com/wordpress/2018/07/known-woff2-mime-convert/
+- https://html5doctor.com/the-figure-figcaption-elements/
+- what is a permalink https://www.reliablesoft.net/what-is-a-permalink/
+- Markdown 解析原理详解和 Markdown AST 描述 https://ld246.com/article/1587637426085
+- react 脚手架引入 antd 报 warning 解决办法 https://blog.csdn.net/qq_41555695/article/details/123573003
+- 使用 CSS 隐藏元素滚动条 https://www.cnblogs.com/jofun/p/11158145.html
+- java 泛型通配符详解 https://www.cnblogs.com/minikobe/p/11547220.html
+- 机械键盘修复 https://jingyan.baidu.com/article/6525d4b16bab5fac7d2e94bd.html
+- git reabse 用法 https://www.yiibai.com/git/git_rebase.html
+- 泛型中 =? super T= 和 =? extends T= 的区别 https://www.cnblogs.com/lucky_dai/p/5485421.html
+- [前端接收 type: “application/octet-stream“ 格式的数据并下载，解决后端返回不唯一](https://blog.csdn.net/qq_53145332/article/details/123595850)
+- 使用 webpack 代码分割和魔术注释提升应用性能 https://segmentfault.com/a/1190000039134142
+- vue 和 react 的区别是什么 https://zhuanlan.zhihu.com/p/100228073
+- Vue 和 React 的重渲染（re-render）机制对比 https://deswan.github.io/e/compare-vue-react-rendering/
+- 详解在 vue 项目中使用 render 函数 https://blog.csdn.net/weixin_45844049/article/details/114277643
+- encodeURI & encodeURIComponet https://blog.csdn.net/m0_46309087/article/details/119839122
+- 发布页 https://www.shuangshi.app/
+- ReferenceError: primordials is not defined https://www.cnblogs.com/bilberry/p/14830764.html
+- gulp 3.x 版本和 node 12.x 版本不兼容 https://www.cnblogs.com/bilberry/p/14830764.html
+- huawei watch theme dev https://developer.huawei.com/consumer/cn/codelab/theme-Watchface/index.html#0
+- w3c.cn mongodb https://www.w3cschool.cn/mongodb/mongodb-1uxs37ih.html
+- mongoosejs http://www.mongoosejs.net/docs/index.html
+- Mongodb&NodeJS http://mongodb.github.io/node-mongodb-native/3.4/quick-start/quick-start/
+- element Dialog 超出部分隐藏了滚动条 https://zhuanlan.zhihu.com/p/405472916
+- Element-ui 的 el-scrollbar 组件重置高度方法 https://tech.souyunku.com/?p=42784
+- IE8 及以下不支持 trim() 的处理方法 https://blog.csdn.net/weixin_34291004/article/details/89834417
+- JQuery 对 Select option 的操作 https://www.cnblogs.com/Joans/p/4994025.html
+- C 语言 =size_t= 类型
+- https://blog.csdn.net/wucz122140729/article/details/105679220
+- https://baike.baidu.com/item/size_t/8101179?fr=aladdin
+- Emacs Talk https://github.com/EmacsTalk/joinus/issues/12
+- 关于 Vue、React 与 MVVM https://www.jianshu.com/p/9037026513a2
+- Object.defineProperty() https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Object/defineProperty
+- Vue 双向绑定实现原理 https://www.w3cplus.com/vue/vue-two-way-binding-object-defineproperty.html
+- Markdown 二次扩展 https://www.jianshu.com/p/81e1b657f98d
+- Redux 中文文档 https://www.redux.org.cn/
+- 公安备案 http://www.beian.gov.cn
+- [【Java 解决报错】IDEA 中 Spring Boot 启动报错 Application startup failed](https://www.longyating.com/IDEA/)
+- [Spring Boot Developer Tools Auto restart doesn&#39;t work in IntelliJ](https://stackoverflow.com/questions/53569745/spring-boot-developer-tools-auto-restart-doesnt-work-in-intellij)
+- Nginx 服务器 SSL 证书安装部署 https://cloud.tencent.com/document/product/400/35244
+- 最小化当前终端 执行命令 cmd 奇技淫巧 https://www.jianshu.com/p/f3b84f2eb7c4
+- npm 安装包时 --save 和 --save-dev 的区别 https://www.cnblogs.com/yuanyiming/p/10735513.html
+- Ubuntu20.04 创建新的用户 https://www.cnblogs.com/stacso/p/14925903.html
+- 如何在 Ubuntu 20.04 上修改主机名 https://www.itcoder.tech/posts/how-to-change-hostname-on-ubuntu-20-04/
+- Permission denied (publickey). 解决方法 https://www.cnblogs.com/guodavid/p/11004499.html
+- [java8 探讨与分析匿名内部类、lambda 表达式、方法引用的底层实现](https://www.cnblogs.com/chenjingquan/p/10574320.html)
+- js 拖拽 https://blog.csdn.net/weixin_41910848/article/details/82218243
+- elementUI https://element.eleme.cn/#/zh-CN/component/installation
+- layUI https://www.w3cschool.cn/layui/
+- eUI 表单回车导致页面刷新 https://blog.csdn.net/a1056244734/article/details/116485687?spm=1001.2101.3001.6650.1&utm_medium=distribute.pc_relevant.none-task-blog-2~default~CTRLIST~default-1.highlightwordscore&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2~default~CTRLIST~default-1.highlightwordscore
+- 如何批量修改文件后缀
+- https://jingyan.baidu.com/article/e9fb46e196ea187521f7661a.html
+- https://baijiahao.baidu.com/s?id=1553132054620368&wfr=spider&for=pc
+- Vue 表单点击 input 刷新页面 https://blog.csdn.net/a1056244734/article/details/116485687?spm=1001.2101.3001.6650.1&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-1.highlightwordscore&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-1.highlightwordscore
+- js 数字正则表达式 https://www.cnblogs.com/fanshuyao/p/12705663.html
+- chrome 打开百度慢 https://jingyan.baidu.com/article/39810a23d80bb4f736fda6e2.html
+- java/jdk https://repo.huaweicloud.com/java/jdk/
+- iSignature HTML5 http://nc.kinggrid.com:8899/iSignatureHTML5/demo/server.html
+- 明月庄主留言板 https://support.qq.com/products/166780/
+- Postman 快速入门 https://www.cnblogs.com/surpassme/p/15390018.html
+- ajax 请求添加自定义 header 参数代码
+- https://www.jb51.net/article/199388.htm
+- https://blog.csdn.net/whl190412/article/details/90636077
+- chrome 更新跨域规则 https://www.cnblogs.com/daysme/p/15493523.html
+- Synergy 使用教程 https://www.onlinedown.net/soft/5666.htm
+- 先天八卦与后天八卦用法 https://www.sohu.com/a/330327355_435999
+- file-loader 的使用 https://www.jianshu.com/p/d18980a6d779
+- webpack loader 的加载顺序（从右向左，从下向上） https://www.cnblogs.com/ygunoil/p/13130858.html
+- 使用 org-roam 构建自己的知识网络 https://www.zmonster.me/2020/06/27/org-roam-introduction.html
+- window mysql 安装初始化
+- https://www.cnblogs.com/imyanger/p/11854151.html
+- https://www.cnblogs.com/ydwzhang/p/10992343.html
+- ubuntu mysql 初始化 https://blog.csdn.net/cruiserblog/article/details/106934570
+- mysql 安装及配置
+- Win10 系统下 MySQL 8.0.20 安装和配置超详细教程 https://blog.csdn.net/LB_AUTO/article/details/106041858
+- 安装 MySQL8，安装时初始化数据库失败 https://blog.csdn.net/qq_36652940/article/details/100057771
+- The service already exists! The current server installed: https://blog.csdn.net/Myuhua/article/details/84817491
+- MySQL--修改 mysql 服务可执行文件的路径（Windows） https://blog.csdn.net/JustinQin/article/details/102644775
+- ERROR 2003 (HY000): Can't connect to MySQL server on 'localhost' (10061) https://blog.csdn.net/huang6ing/article/details/103821495
+- [MySQL 报错：ERROR 1820 (HY000): You must reset your password using ALTER USER statement before](https://blog.csdn.net/Wing_kin666/article/details/110921440)
+- 解决每次 git 推送都需要输入账号密码的问题 https://www.cnblogs.com/jieshendada/p/7851866.html
+- SSH 连接服务器，长时间不操作就会断开 https://www.cnblogs.com/ygyy/p/12416052.html
+- 数据结构的本质 https://blog.csdn.net/ZK_J1994/article/details/54344250
+- Chrome 开发工具 https://zhuanlan.zhihu.com/p/47697445
+- 浅谈 script 标签中的 async 和 defer https://www.cnblogs.com/jiasm/p/7683930.html
+- IE8 使用 window.open 下载文件一闪而过 https://blog.csdn.net/weixin_43938253/article/details/112981793
+- Post 请求的两种编码格式：application/x-www-form-urlencoded 和 multipart/form-data https://www.jianshu.com/p/53b5bd0f1d44
+- 迭代器 https://wohugb.gitbooks.io/ecmascript-6/content/docs/iterator.html
+- HTML5 FormData 方法介绍以及实现文件上传 https://blog.csdn.net/u014607184/article/details/52372551/
+- 前端多种方式实现文件下载 https://blog.csdn.net/z591102/article/details/105529761/
+- vea excel exports https://panjiachen.github.io/vue-element-admin-site/zh/feature/component/excel.html#excel-%E5%AF%BC%E5%87%BA
+- vue-element-ui https://juejin.cn/post/6844903476661583880
+- 网络模型 https://blog.csdn.net/qq_25800311/article/details/87024665
+- Socket 原理 https://blog.csdn.net/pashanhu6402/article/details/96428887
+- Chrome V8 https://zhuanlan.zhihu.com/p/266708344
+- 编译原理龙书 https://zhuanlan.zhihu.com/p/161237861
+- 跟着毛泽东学读书 http://dangshi.people.com.cn/n1/2020/1111/c85037-31926429.html
+- Web 图片资源的加载与渲染时机 https://segmentfault.com/a/1190000010032501
+- CORS 跨域 实现思路及相关解决方案 https://www.cnblogs.com/sloong/p/cors.html
+- 从头到脚瞧一瞧 process.env.NODE_ENV https://www.jianshu.com/p/c8f9c61c2f20
+- Browser render https://zhuanlan.zhihu.com/p/74792085
+- VDOM https://www.zhihu.com/question/29504639
+- ESLint and Prettier https://vsnail.cn/static/doc/blog/eslintPrettier.html
+- call、apply、bind https://www.cnblogs.com/moqiutao/p/7371988.html
+- https://blog.csdn.net/u010176097/article/details/80348447
+- 函数柯里化 https://www.jianshu.com/p/2975c25e4d71
+- JS Doc https://www.html.cn/doc/jsdoc/about-namepaths.html
+- Package.json https://www.cnblogs.com/tzyy/p/5193811.html
+- async/await 封装 axios
+- https://www.cnblogs.com/lhy-555/p/10905419.html
+- https://www.jianshu.com/p/4168efdc172b
+- Fetch https://www.cnblogs.com/libin-1/p/6853677.html
+- 解决 vue-cli3 配置 babel-polyfill 的问题
+- https://segmentfault.com/a/1190000021940616
+- https://www.jianshu.com/p/f2082ed8e285
+- Rollup 深入 https://www.cnblogs.com/tugenhua0707/p/8179686.html
+- JS source map http://www.ruanyifeng.com/blog/2013/01/javascript_source_map.html
+- Vue Source Code https://blog.csdn.net/fyyyr/article/details/80518768
+</div>

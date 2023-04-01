@@ -1,0 +1,141 @@
+@import url(taobao.css);
+
+html {
+	font-size: 100px;
+	height: 100%;
+	scroll-behavior: smooth;
+}
+
+body {
+	box-sizing: border-box;
+
+	border-top: 4px solid;
+	border-image-source: linear-gradient(90deg, #0d6efd, #8ed6fb 50%, #d32e9d);
+	border-image-slice: 1;
+	-webkit-border-top: 4px solid;
+	-webkit-border-image-source: linear-gradient(90deg, #0d6efd, #8ed6fb 50%, #d32e9d);
+	-webkit-border-image-slice: 1;
+
+	padding: 24px 0;
+}
+
+#operation {
+	position: fixed;
+	top: 2%;
+	right: 16px;
+	font-size: .16rem;
+	display: flex;
+}
+
+#operation a {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+#operation a svg {
+	display: block;
+}
+
+#anchors {
+	padding: 0 16px;
+	position: fixed;
+	top: 18%;
+	/* top: 8%; */
+	right: 0;
+	width: 160px;
+	border-left: 1px solid #eee;
+	max-height: 600px;
+	overflow: auto;
+	font-family: 'Segoe Print', 'Segoe Script', 'Courier New', kaiti;
+}
+
+#anchors::-webkit-scrollbar {
+	width: 1px;
+	height: 1px;
+}
+
+#anchors a {
+	display: block;
+	border-bottom: 1px solid #ccc;
+	margin: 4px;
+	padding: 2px;
+	font-size: .14rem;
+	text-decoration: none;
+	color: #0d6efd;
+	/* background: rgba(230, 230, 230, .6); */
+
+}
+
+#anchors a:hover {
+	color: #d32e9d;
+}
+
+#emojis {
+	display: flex;
+	flex-wrap: wrap;
+	/* justify-content: space-between; */
+	margin-right: 200px;
+}
+
+#emojis .title {
+	font-size: 0.28rem;
+	width: 100%;
+	margin: 16px;
+	color: #999;
+	padding-top: 24px;
+
+	font-family: 'Segoe Print', 'Segoe Script', 'Courier New', kaiti;
+}
+
+#emojis .clip {
+	text-align: center;
+	width: .72rem;
+	height: .36rem;
+	line-height: .36rem;
+	flex-shrink: 0;
+	border: 1px solid #eee;
+	margin: 2px;
+	/* padding: 4px; */
+	font-size: .24rem;
+	cursor: pointer;
+	transition: .2s background-color linear;
+	box-sizing: border-box;
+}
+
+#emojis .clip:hover {
+	background: #0d6efd;
+}
+
+/*
+	Update default scroll-bar style.
+	More: https://ovirgo.com/posts/scroll-bar
+*/
+::-webkit-scrollbar {
+	width: 6px;
+	height: 6px;
+}
+
+::-webkit-scrollbar-track-piece {
+	background-color: transparent;
+	border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+	cursor: pointer;
+	background-color: #ccc;
+	border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background-color: #999;
+}
+
+::-webkit-scrollbar-corner {
+	display: block;
+}
+
+@media screen and (max-width: 1026px) {
+	#anchors {
+		top: 6%;
+	}
+}

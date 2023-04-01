@@ -1,0 +1,370 @@
+#+DATE: 2022-06-29T10:02:15+08:00
+#+TITLE: Org Mode
+#+CATEGORIES[]: 关于
+#+TAGS[]: Hugo Emacs
+#+CARD: 
+
+#+BEGIN_QUOTE 
+这里是 Hugo 解析 Org Mode 内容的展示，如果你使用的是 Markdown ，可以跳转 [[/posts/markdown][Markdown]] 查看相关样式。
+#+END_QUOTE
+
+*想要了解更多，可以去阅读 [[https://ox-hugo.scripter.co/][oxhugo]] 的文档 。
+
+# more 
+
+#+BEGIN_QUOTE 
+以下 markdown 正文内容，摘自 [[https://github.com/hexojs/hexo-theme-unit-test/edit/master/source/_posts/markdown.md][Markdown 测试文本]] ，我们引用这部分内容，修改为 Org Mode 语法格式，并添加 Org Mode 独有的部分功能。
+#+END_QUOTE
+
+This post is originated from [[https://gist.github.com/apackeer/4159268][here]] and is used for testing markdown style. This post contains nearly every markdown usage. Make sure all the markdown elements below show up correctly.
+
+<!-- more -->
+
+---
+
+** Headers
+
+#+BEGIN_EXAMPLE 
+** H2
+
+*** H3
+
+**** H4
+
+***** H5
+
+****** H6
+#+END_EXAMPLE
+
+一篇文章中，通常一级标题只有一个，用来做为当前文章的标题，正文内容层级一般使用二级及其以下层级标题。
+
+#+BEGIN_HTML 
+<div class="oh-essay">
+是的，Hugo 中内置的 Org Mode 解析引擎，默认会把正文中的最高层级置为 H2 ，事实上，这样做是正确的，Markdown 没有这样做，反而有点奇怪。
+</div>
+#+END_HTML
+
+
+
+** Enhance Org Mode
+
+分析之后才发现 Hugo 使用的 Org Mode 引擎是没有对 =#+BEGIN_HTML ... #+END_HTML= 这种原样输出 html 内容的语法做处理的，它会把其内部元素整体做为一个字符串进行输出。好在这个问题很容易处理，我们对它做了一些增强，如下：
+
+#+BEGIN_SRC js 
+$('.html-block p').each((idx, item) => {
+	item.innerHTML = `${item.innerText}`
+})
+#+END_SRC
+
+思路很简单，我们操作转义后的文本，逆向解析为 =html= 。如此，我们便可以更加灵活的插入相应的 html 标签了，如我们插入图片。
+
+#+BEGIN_EXAMPLE 
+#+BEGIN_HTML 
+<img src="/imgs/bg/cat.jpg" width="400" style="float: ;" />
+#+END_HTML
+#+END_EXAMPLE
+
+
+#+BEGIN_HTML 
+<img src="/imgs/bg/cat.jpg" width="400" style="float: ;" />
+#+END_HTML
+
+#+BEGIN_HTML 
+<div class="oh-essay">
+原样输出 Html 真的很重要，也更加灵活。
+</div>
+
+#+END_HTML
+
+
+** Emphasis
+
+#+BEGIN_EXAMPLE 
+Emphasis, aka underlines, with _asterisks_ or _underscores_.
+
+Emphasis, aka italics, with /asterisks/ or /underscores/.
+
+Strong emphasis, aka bold, with *asterisks* or *underscores*.
+
+Combined emphasis with *asterisks and _underscores_*.
+
+Strikethrough uses two tildes. +Scratch this.+
+#+END_EXAMPLE
+
+Emphasis, aka underlines, with _asterisks_ or _underscores_.
+
+Emphasis, aka italics, with /asterisks/ or /underscores/.
+
+Strong emphasis, aka bold, with *asterisks* or *underscores*.
+
+Combined emphasis with *asterisks and _underscores_*.
+
+Strikethrough uses two tildes. +Scratch this.+
+
+#+BEGIN_HTML
+<div class="oh-essay">
+很容易看出，Org Mode 的表现能力及语法直观形象性，都要比 Markdown 好不少，后者连下划线都没有 😿
+</div>
+#+END_HTML
+
+
+** Lists
+
+#+BEGIN_EXAMPLE 
+1. First ordered list item
+2. Another item
+
+-   Unordered sub-list.
+
+1. Actual numbers don't matter, just that it's a number
+1. Ordered sub-list
+
+
+-   Unordered list can use asterisks
++   Or minuses
+-   Or pluses
++   Paragraph In unordered list
+
+
+Common Paragraph with some text.
+And more text.
+#+END_EXAMPLE
+
+1. First ordered list item
+2. Another item
+
+-   Unordered sub-list.
+
+1. Actual numbers don't matter, just that it's a number
+1. Ordered sub-list
+
+
+-   Unordered list can use asterisks
++   Or minuses
+-   Or pluses
++   Paragraph In unordered list
+
+Common Paragraph with some text. And more text.
+
+** Inline HTML
+
+#+BEGIN_EXAMPLE 
+<p>To reboot your computer, press <kbd>ctrl</kbd>+<kbd>alt</kbd>+<kbd>del</kbd>.</p>
+#+END_EXAMPLE
+
+#+BEGIN_HTML 
+<p>To reboot your computer, press <kbd>ctrl</kbd>+<kbd>alt</kbd>+<kbd>del</kbd>.</p>
+#+END_HTML
+
+#+BEGIN_EXAMPLE 
+<dl>
+    <dt>Definition list</dt>
+    <dd>Is something people use sometimes.</dd>
+
+    <dt>Markdown in HTML</dt>
+    <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
+
+</dl>
+#+END_EXAMPLE
+
+#+BEGIN_HTML 
+<dl>
+    <dt>Definition list</dt>
+    <dd>Is something people use sometimes.</dd>
+
+    <dt>Markdown in HTML</dt>
+    <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
+</dl>
+#+END_HTML
+
+
+** Links
+
+#+BEGIN_EXAMPLE 
+[[https://www.google.com][]]
+[[https://www.google.com][I'm an inline-style link]]
+#+END_EXAMPLE
+
+[[https://www.google.com][]]
+
+[[https://www.google.com][I'm an inline-style link]]
+
+
+** Images
+
+#+BEGIN_EXAMPLE 
+[[https://hexo.io/icon/favicon-196x196.png][Click to see png]]  ;; 设置图片链接
+[[https://hexo.io/icon/favicon-196x196.png]]                    ;; 直接展示图片
+[[./imgs/org-mode.png]]                                         ;; 本地图片
+#+END_EXAMPLE
+
+hover to see the title text:
+
+Inline-style:
+
+[[https://hexo.io/icon/favicon-196x196.png][Click to see png]]
+
+[[https://hexo.io/icon/favicon-196x196.png]]
+
+引用本地图片
+
+[[./imgs/org-mode.png]]
+
+或者，你可以直接输出 =<img>= 标签，更方便。
+
+** Code and Syntax Highlighting
+
+Inline =code= has =equal sign around= it. 你可以使用 ==inline-code== 来包裹行内代码，也可以使用 =~= ，它们转义后的效果是相同的。 
+
+
+** Source Code Block
+
+在 Org Mode 中，使用  =<s= ，按 TAB 展开，很容易得到一组供插入代码块的标签，如下：
+
+#+BEGIN_EXAMPLE 
+#+BEGIN_SRC js
+var s = 'JavaScript syntax highlighting';
+alert(s);
+#+END_SRC
+#+END_EXAMPLE
+
+#+BEGIN_SRC js
+var s = 'JavaScript syntax highlighting';
+alert(s);
+#+END_SRC
+
+或者，
+
+#+BEGIN_SRC python
+s = "Python syntax highlighting"
+print s
+#+END_SRC
+
+
+有时候，我们不指定语言侦测，也可以直接使用 =<e= 去展开，如下：
+
+#+BEGIN_SRC 
+#+BEGIN_EXAMPLE 
+No language indicated, so no syntax highlighting.
+But let's throw in a <b>tag</b>.
+#+END_EXAMPLE
+#+END_SRC
+
+#+BEGIN_EXAMPLE 
+No language indicated, so no syntax highlighting.
+But let's throw in a <b>tag</b>.
+#+END_EXAMPLE
+
+如果，你在 Emacs 中使用的话，可以直接用上述方式展开。如果，你使用 vscode 的话，这里有一个很不错的插件，如下：
+
+[[./imgs/1.jpg]]
+
+** Tables
+
+
+#+BEGIN_EXAMPLE 
+| Name        |  Phone | sub1 | sub2 | total |
+|-------------+--------+------+------+-------|
+| maple       | 134... |   89 |   98 |       |
+| wizard      | 152... |   78 |   65 |       |
+| Hello World | 123... |   76 |   87 |       |
+| hehe        | 157... |   87 |   78 |       |
+#+END_EXAMPLE
+
+| Name        |  Phone | sub1 | sub2 | total |
+|-------------+--------+------+------+-------|
+| maple       | 134... |   89 |   98 |       |
+| wizard      | 152... |   78 |   65 |       |
+| Hello World | 123... |   76 |   87 |       |
+| hehe        | 157... |   87 |   78 |       |
+
+
+** Blockquotes
+
+#+BEGIN_EXAMPLE 
+#+BEGIN_QUOTE 
+Blockquotes are very handy in email to emulate reply text.
+
+This line is part of the same quote.
+#+END_QUOTE
+#+END_EXAMPLE
+
+#+BEGIN_QUOTE 
+Blockquotes are very handy in email to emulate reply text.
+
+This line is part of the same quote.
+#+END_QUOTE
+
+
+** Horizontal Rule
+
+Three or more...
+
+#+BEGIN_EXAMPLE 
+-----
+#+END_EXAMPLE
+
+-----
+
+至少 5 个横折线。
+
+
+
+** Oh Essay
+
+在编辑博文的时候，经常想插入一些突然闪现出来的内容，或是于行文无关的吐槽等。为了更好地与正文内容做区分，做了一个定制模式，以 html 格式插入。
+
+
+#+BEGIN_EXAMPLE 
+#+BEGIN_HTML 
+<div class="oh-essay">
+这就是我们插入的随笔喽…… blablablabla……
+</div>
+#+END_HTML
+#+END_EXAMPLE
+
+#+BEGIN_HTML 
+<div class="oh-essay">
+这就是我们插入的随笔喽…… blablablabla……
+</div>
+#+END_HTML
+
+
+** Bilibili Videos
+
+
+#+BEGIN_HTML 
+<div class="oh-essay">
+Youbube ? No no no ! Bilibili ? Yes ! 
+</div>
+#+END_HTML
+
+#+BEGIN_HTML 
+<iframe src="//player.bilibili.com/player.html?aid=338348299&bvid=BV1FR4y1u7GF&cid=489898794&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+#+END_HTML
+
+
+Bilibili 真的很不错，体验上比 Youtube 要好，内容类型嘛，则没有后者丰富，这个没办法，生态大环境决定的。
+
+
+#+BEGIN_EXAMPLE 
+## Youtube videos
+
+```markdown
+<a href="https://www.youtube.com/watch?feature=player_embedded&v=ARted4RniaU
+" target="_blank"><img src="https://img.youtube.com/vi/ARted4RniaU/0.jpg"
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+
+Pure markdown version:
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/ARted4RniaU/0.jpg)](https://www.youtube.com/watch?v=ARted4RniaU)
+
+<a href="https://www.youtube.com/watch?feature=player_embedded&v=ARted4RniaU
+" target="_blank"><img src="https://img.youtube.com/vi/ARted4RniaU/0.jpg"
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+
+Pure markdown version:
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/ARted4RniaU/0.jpg)](https://www.youtube.com/watch?v=ARted4RniaU)
+```
+#+END_EXAMPLE
